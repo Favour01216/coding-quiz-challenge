@@ -55,7 +55,7 @@ function countdown() {
     // 
     let startTimer = setInterval(function() {
         // Once the timer starts this removes the placeholder
-        if (timeStart === 60) {
+        if (timeStart === 20) {
             timerEl.removeChild(removeTimePlaceHold);
         }
         timeStart--;
@@ -321,6 +321,25 @@ let questionsDictionary = [
           { answer: 'seville', status: 0 },
           { answer: 'madrid', status: 1 }
         ]
+     }, 
+      {
+        question: ' Which villain is known for saying the following: “Why So Serious?"',
+        answers: [
+            { answer: 'Batman', status: 0 },
+            { answer: 'Iron man', status: 0 },
+            { answer: 'Thor', status: 0 },
+            { answer: 'Joker', status: 1 }
+        ]   
+     }, 
+     {
+      question: 'Which movie franchise is known for the following: “May the odds be ever in your favour.”',
+      answers: [
+          { answer: 'Maze Runner', status: 0 },
+          { answer: 'Gladiator', status: 0 },
+          { answer: 'Hobbit', status: 0 },
+          { answer: 'The hunger games', status: 1 }
+        ] 
+   
     }
 
 ]
