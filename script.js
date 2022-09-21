@@ -49,13 +49,13 @@ let mainScreen = function () {
 function countdown() {
     // Creates an h4 element to display the time count down
     let timeSeconds = document.createElement("h4");
-    let timeStart = 20; // Starts timer at 20 seconds
+    let timeStart = 30; // Starts timer at 30 seconds
     timeSeconds.classList.add('seconds'); 
        timerEl.appendChild(timeSeconds); // Appends it to the timer id
     // 
     let startTimer = setInterval(function() {
         // Once the timer starts this removes the placeholder
-        if (timeStart === 20) {
+        if (timeStart === 30) {
             timerEl.removeChild(removeTimePlaceHold);
         }
         timeStart--;
