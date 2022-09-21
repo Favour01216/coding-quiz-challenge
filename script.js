@@ -45,11 +45,11 @@ let mainScreen = function () {
         mainStartScreen.children[i].setAttribute("style", "margin: 20px;")
     }
 }
- // The countdown function sets the timer for the quiz and handles any events that must take place when certain conditions are met
+
 function countdown() {
     // Creates an h4 element to display the time count down
     let timeSeconds = document.createElement("h4");
-    let timeStart = 20; // Starts timer at 60 seconds
+    let timeStart = 20; // Starts timer at 20 seconds
     timeSeconds.classList.add('seconds'); 
        timerEl.appendChild(timeSeconds); // Appends it to the timer id
     // 
