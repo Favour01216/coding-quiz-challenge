@@ -1,0 +1,148 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+    --darkTheme: rgba(116, 46, 182, 0);
+    --blueButtons: rgb(61, 59, 214);
+}
+
+header {
+    background-color: var(--darkTheme);
+}
+
+nav{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#timer {
+    padding-right: 35px ;
+}
+
+#main-buttons > * {
+    margin-left: 15px;
+    background-color: var(--blueButtons);;
+}
+
+#logo-header{
+    margin-right: 40px;
+}
+
+h1{
+    font-size: 35px;
+    align-items: center;
+}
+
+h2{
+    font-size: 30px;
+    align-items: center;
+}
+
+h3 {
+    padding: 20px;
+}
+
+p{
+    font-size: 18px;
+    align-items: center;
+    line-height: 30px;
+}
+
+.container-quiz{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.container-quiz > * {
+    margin-bottom: 10px;
+}
+
+.container-quiz button {
+    margin: 5px 40px ;
+    padding: 10px 5px ;
+    cursor: pointer;
+    background-color: var(--blueButtons);
+}
+
+.container-start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px;
+    height: 80vh;
+    text-align: center;
+}
+
+.container-high-score{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 30px;
+    margin-top: 170px;
+    height: 80vh;
+    text-align: center;
+}
+
+.container-high-score > * {
+    margin: 10px;
+}
+
+.btn-start{
+    padding: 20px 40px;
+    order: 2;
+    cursor: pointer;
+    background-color: var(--blueButtons);
+    font-size: 20px;
+}
+
+.anchor > *{
+    margin-bottom: 20px;
+}
+
+.anchor{ 
+    display: block;
+    width: 100%;
+}
+
+.high-score-enter{
+    background-color: var(--blueButtons);
+    padding: 0px 5px;
+}
+
+
+
+table {
+    background-color: transparent;
+    margin-bottom: 1rem;
+    width: 70%;
+    order: 5;
+}
+
+table thead,
+table td {
+    padding: 0.75rem;
+    vertical-align: middle;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: #f41818;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .container-quiz{
+        margin: 5px;
+    }
+} 
