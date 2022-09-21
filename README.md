@@ -13,3 +13,4 @@ This website works by answering all questions before the timer of 20 seconds run
 * WHEN the game is over
 * THEN I can save my initials and score
 ## Deployed application view
+<img width="1439" alt="Screen Shot 2022-09-21 at 8 32 22 PM" src="https://user-images.githubusercontent.com/112361368/191625135-b627f47d-306c-4921-8276-fe60783cb182.png">
